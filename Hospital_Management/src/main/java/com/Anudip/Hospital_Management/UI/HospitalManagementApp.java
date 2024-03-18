@@ -83,7 +83,6 @@ public class HospitalManagementApp {
         // Input appointment details from the user
         System.out.println("Enter patient ID:");
         long patientId = sc.nextLong();
-        patientId.getPatient
         System.out.println("Enter doctor ID:");
         long doctorId = sc.nextLong();
         

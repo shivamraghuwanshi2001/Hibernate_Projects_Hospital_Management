@@ -65,6 +65,26 @@ public class Appointment {
 	public Appointment() {
 		super();
 	}
+
+	public Appointment(long patientId, long doctorId, Date appointmentDateTime2) {
+		
+		this.doctor = doctor;
+		this.patient = patient;
+		this.appointmentDateTime = appointmentDateTime;
+	}
+
+	public Appointment(long patientId, long doctorId) {
+		// TODO Auto-generated constructor stub
+		this.patient = patient;
+		this.doctor = doctor;
+		
+	}
+
+	public Appointment(long patientId) {
+		// TODO Auto-generated constructor stub
+		this.patient = patient;
+	}
+
 	
 	public Appointment(Doctor doctor, Patient patient, Date appointmentDateTime) {
 	    this.doctor = doctor;
